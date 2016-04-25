@@ -1,0 +1,24 @@
+*
+
+#config block
+!.config
+.config/*
+!.config/cava/*
+!.config/compton/*
+!.config/dunst/*
+!.config/i3/*
+.config/i3/__border/*
+!.config/i3status/*
+.config/i3status/dist/*
+.config/i3status/pystatus/*.pyc
+
+#applications block
+!Applications
+Applications/*
+!Applications/_SCRIPTS/*
+!Applications/i3lock-fancy/*
+Applications/i3lock-fancy/bg.*
+Applications/i3lock-fancy/param.info
+
+#obligatory gitignore
+!.gitignore
